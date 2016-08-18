@@ -1,0 +1,60 @@
+h1,h3 {
+    font-family: "Roboto", sans-serif;
+
+}
+
+.logo {
+  max-width: 300px;
+}
+
+body {
+  text-align: left;
+  background: url("../images/coffee.jpg");
+  background-size: cover;
+  color: #fff;
+  margin: 8em 4em;
+}
+
+
+h1 {
+  font-size:26px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size:22px;
+  font-weight: 400;
+}
+
+
+p {
+  font-size:18px;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 100;
+}
+
+ul {
+    list-style-type: circle;
+    font-family: "Helvetica", sans-serif;
+}
+
+/* unvisited link */
+a:link {
+    color: #fff;
+    transition: color 0.3s linear;
+}
+
+/* visited link */
+a:visited {
+    color: #FBBF43;
+}
+
+/* mouse over link */
+a:hover {
+    color: #A44A10;
+}
+
+/* selected link */
+a:active {
+    color: #FBBF43;
+}
