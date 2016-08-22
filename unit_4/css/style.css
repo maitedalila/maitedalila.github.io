@@ -1,0 +1,72 @@
+/* import google fonts (changed to: @import url"#" ) */
+
+@import url(https://fonts.googleapis.com/css?family=Expletus+Sans|Raleway);
+
+.logo {
+  max-width: 300px;
+}
+
+/* includes p */
+
+body {
+  background: url("../images/coffee.jpg");
+  background-size: cover;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  text-align: left;
+  margin: 8em 4em;
+  line-height: 1.5em;
+}
+
+/* headings */
+  
+h1 {
+  font-family: 'Expletus Sans', cursive;
+  font-size:26px;
+  font-variant: small-caps;
+}
+
+h3 {
+  font-size:22px;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+}
+
+
+p {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+/* lists */
+
+ul {
+    list-style-type: circle;
+}
+
+/* unvisited link */
+
+a:link {
+    color: #fff;
+    transition: color 0.3s linear;
+}
+
+/* visited link */
+
+a:visited {
+    color: #FBBF43;
+}
+
+/* mouse over link */
+
+a:hover {
+    color: #A44A10;
+}
+
+/* selected link */
+
+a:active {
+    color: #FBBF43;
+}
