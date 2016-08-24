@@ -1,60 +1,72 @@
-h1,h3 {
-    font-family: "Roboto", sans-serif;
+/* import google fonts (changed to: @import url"#" ) */
 
-}
+@import url(https://fonts.googleapis.com/css?family=Expletus+Sans|Raleway);
 
 .logo {
   max-width: 300px;
 }
 
+/* includes p */
+
 body {
-  text-align: left;
   background: url("../images/coffee.jpg");
   background-size: cover;
   color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  text-align: left;
   margin: 8em 4em;
+  line-height: 1.5em;
 }
 
-
+/* headings */
+  
 h1 {
+  font-family: 'Expletus Sans', cursive;
   font-size:26px;
-  font-weight: 700;
+  font-variant: small-caps;
 }
 
 h3 {
   font-size:22px;
-  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-variant: small-caps;
 }
 
 
 p {
-  font-size:18px;
-  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
   font-weight: 100;
 }
 
+/* lists */
+
 ul {
     list-style-type: circle;
-    font-family: "Helvetica", sans-serif;
 }
 
 /* unvisited link */
+
 a:link {
     color: #fff;
     transition: color 0.3s linear;
 }
 
 /* visited link */
+
 a:visited {
     color: #FBBF43;
 }
 
 /* mouse over link */
+
 a:hover {
     color: #A44A10;
 }
 
 /* selected link */
+
 a:active {
     color: #FBBF43;
 }
