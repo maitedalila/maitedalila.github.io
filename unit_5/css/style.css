@@ -1,60 +1,126 @@
-/* import google fonts (changed to: @import url"#" ) */
 
-@import url(https://fonts.googleapis.com/css?family=Expletus+Sans|Raleway);
 
-.logo {
-  max-width: 200px;
+/*importing fonts in my file*/
 
+@font-face {
+  font-family: 'Havana'; src: url('../fonts/Havanta.ttf');
+}
+@font-face {
+  font-family: 'Havana Italic'; font-weight: italic; src: url('../fonts/Havanta Italic.ttf');
+}
+@font-face {
+  font-family: 'Havana Rounded'; src: url('../fonts/Havanta Rounded.ttf');
+}
+@font-face {
+  font-family: 'Havana Shadows'; src: url('../fonts/Havanta Shadows.ttf');
 }
 
-/* all body content (includes p)*/
+@import url("https://fonts.googleapis.com/css?family=Muli");
 
-.wrapper {
-  text-align: left;
-  margin: 1em; 
+
+nav {
+  padding: 2em;
 }
 
 nav li {
   display: inline-block;
+  text-transform: uppercase;
+  margin-right: 2em;
 }
-
 
 nav ul {
   float: right;
 }
 
-.viewcoffee {
- text-align: center;
+.logo {
+  max-width: 100px;
 
 }
 
+header{
+    background: url("../images/coffee.jpg");
+    background-size:cover;
+    background-position: center 5%;
+    background-repeat: no-repeat;
+}
+
+header {
+    height:500px;
+}
+
+section {
+  padding: 5em 0;
+}
+
+.tagline {
+  text-align: center;
+  margin-top: 5em;
+}
+
+
+.viewcoffee {
+  text-align: center;
+
+}
+
+#about{
+  background:#fff;
+  color: #000;
+  text-align: center;
+}
+
+#location{
+  background: url("../images/miami_beach_dark.jpg");
+  background-size:cover;
+  background-position: center 33%;
+  background-repeat: no-repeat;
+  text-align: center;
+
+}
+
+#social-media {
+  background:#fff;
+  color: #000;
+  text-align: center;
+}
+
+footer{
+  background: #000;
+  text-align: center;
+  padding: 5em 0;
+  line-height: 2.5;
+}
+
+footer li {
+  line-height: 2.5;
+}
+
+
 body {
-  background: url("../images/coffee.jpg");
   background-size: cover;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-size: 18px;
   font-weight: 100;
   line-height: 1.5em;
 }
 
-/* headings */
-  
 h1 {
-  font-family: 'Expletus Sans', cursive;
-  font-size:26px;
-  letter-spacing: 1.5px;
-  font-variant: small-caps;
+  font-family: 'Havana', sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 h3 {
-  font-size:22px;
-  letter-spacing: 1.5px;
-  font-variant: small-caps;
+  font-family: 'Havana', sans-serif;
+  font-size: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 100;
 }
 
@@ -76,22 +142,18 @@ a:link {
 /* visited link */
 
 a:visited {
-    color: #FBBF43;
+    color: #D3A038;
 }
 
 /* mouse over link */
 
 a:hover {
-    color: #A44A10;
+    color: #D3A038;
 }
 
 /* selected link */
 
 a:active {
-    color: #FBBF43;
+    color: #D3A038;
 }
 
-footer {
-  text-align: center;
-  padding: 1em 0;
-}
