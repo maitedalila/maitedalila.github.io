@@ -1,6 +1,6 @@
 
 
-/*importing fonts in my file*/
+/* HEADER TEXT * importing fonts in my file*/
 
 @font-face {
   font-family: 'Havana'; src: url('../fonts/Havanta.ttf');
@@ -15,7 +15,7 @@
   font-family: 'Havana Shadows'; src: url('../fonts/Havanta Shadows.ttf');
 }
 
-@import url("https://fonts.googleapis.com/css?family=Muli");
+@import url("https://fonts.googleapis.com/css?family=Muli:300,400");
 
 
 nav {
@@ -26,6 +26,8 @@ nav li {
   display: inline-block;
   text-transform: uppercase;
   margin-right: 2em;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
 nav ul {
@@ -49,7 +51,8 @@ header {
 }
 
 section {
-  padding: 5em 0;
+  padding: 8em;
+
 }
 
 .tagline {
@@ -99,10 +102,10 @@ footer li {
 body {
   background-size: cover;
   color: #fff;
-  font-family: 'Muli', sans-serif;
-  font-size: 18px;
+  font-family: 'Mulis', sans-serif;
+  font-size: 20px;
   font-weight: 100;
-  line-height: 1.5em;
+  line-height: 1.2em;
 }
 
 h1 {
@@ -114,8 +117,8 @@ h1 {
 
 h3 {
   font-family: 'Havana', sans-serif;
-  font-size: 26px;
-  letter-spacing: 2px;
+  font-size: 30px;
+  letter-spacing: 4px;
   text-transform: uppercase;
 }
 
