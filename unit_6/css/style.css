@@ -98,6 +98,16 @@ footer li {
   line-height: 2.5;
 }
 
+.footer-one {
+  float: right;
+  width: 50%;
+}
+
+.footer-two {
+  float: right;
+  width: 50%;
+}
+
 
 body {
   background-size: cover;
