@@ -86,6 +86,19 @@ footer li {
   line-height: 2.5;
 }
 
+.footer-one {
+  float: right;
+  width: 50%;
+}
+
+.footer-two {
+  float: right;
+  width: 50%;
+}
+
+.copyright{
+  margin-top: 2em;
+}
 
 body {
   background-size: cover;
@@ -147,4 +160,5 @@ a:hover {
 a:active {
     color: #fff;
 }
+
 
