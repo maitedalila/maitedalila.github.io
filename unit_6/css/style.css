@@ -28,6 +28,7 @@ nav li {
   margin-right: 2em;
   font-weight: 300;
   letter-spacing: 1px;
+
 }
 
 nav ul {
@@ -123,7 +124,7 @@ h1 {
   font-size: 70px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: white;
+  color: #fff;
 }
 
 h3 {
@@ -156,7 +157,7 @@ a:link {
 /* visited link */
 
 a:visited {
-    color: #D3A038;
+    color: #fff;
 }
 
 /* mouse over link */
