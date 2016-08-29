@@ -35,12 +35,12 @@ nav ul {
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 150px;
 
 }
 
 header{
-    background: url("../images/coffee.jpg");
+    background: url("../images/bean.jpg");
     background-size:cover;
     background-position: center 5%;
     background-repeat: no-repeat;
@@ -73,7 +73,7 @@ section {
 }
 
 #location{
-  background: url("../images/miami_beach_dark.jpg");
+  background: url("../images/wynwood.jpg");
   background-size:cover;
   background-position: center 33%;
   background-repeat: no-repeat;
@@ -167,6 +167,6 @@ a:hover {
 /* selected link */
 
 a:active {
-    color: #D3A038;
+    color: #fff;
 }
 
