@@ -35,12 +35,12 @@ nav ul {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 120px;
 
 }
 
 header{
-    background: url("../images/bean.jpg");
+    background: url("../images/coffee-brew.jpg");
     background-size:cover;
     background-position: center 5%;
     background-repeat: no-repeat;
@@ -73,7 +73,7 @@ section {
 }
 
 #location{
-  background: url("../images/wynwood.jpg");
+  background: url("../images/coconut_grove.jpg");
   background-size:cover;
   background-position: center 33%;
   background-repeat: no-repeat;
@@ -120,9 +120,10 @@ body {
 
 h1 {
   font-family: 'Havana', sans-serif;
-  font-size: 50px;
+  font-size: 70px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  color: white;
 }
 
 h3 {
