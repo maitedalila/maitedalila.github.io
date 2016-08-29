@@ -61,7 +61,6 @@ section {
   margin-top: 5em;
 }
 
-
 .viewcoffee {
   text-align: center;
 
@@ -74,7 +73,7 @@ section {
 }
 
 #location{
-  background: url("../images/coconut_grove.jpg");
+  background: url("../images/wynwood.jpg");
   background-size:cover;
   background-position: center 33%;
   background-repeat: no-repeat;
