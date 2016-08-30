@@ -40,7 +40,7 @@ nav ul {
   max-width: 150px;
 
 }
-
+ 
 
 header{
     background: url("../images/coffee-brew.jpg");
@@ -112,7 +112,7 @@ a:visited {
 /* mouse over link */
 
 a:hover {
-  background-color: #CAA82E;
+  background-color: #000 ;
 }
 
 /* selected link */
@@ -175,6 +175,8 @@ a:active {
   background:#fff;
   color: #000;
   text-align: center;
+  padding: 2em;
+  
 }
 
 .block {
