@@ -168,15 +168,13 @@ a:active {
 
 #location-spot{
     text-align: center;
-
 }
 
 #social-media {
   background:#fff;
   color: #000;
   text-align: center;
-  padding: 2em;
-  
+  padding: 2em;  
 }
 
 .block {
@@ -230,12 +228,12 @@ footer li {
   line-height: 2.5;
 }
 
-.footer-one {
+.footer-right {
   float: right;
   width: 50%;
 }
 
-.footer-two {
+.footer-left {
   float: right;
   width: 50%;
 }
