@@ -49,7 +49,6 @@ nav ul {
 .logo {
   max-width: 150px;
   line-height: 76
-
 }
  
 
@@ -63,6 +62,11 @@ header{
 header {
     height:500px;
 }
+
+contact-link{
+    background-color: transparent;
+}
+
 
 section {
   padding: 8em;
@@ -89,6 +93,13 @@ h1 {
 h3 {
   font-family: 'Havana', sans-serif;
   font-size: 30px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: 'Havana', sans-serif;
+  font-size: 20px;
   letter-spacing: 4px;
   text-transform: uppercase;
 }
@@ -159,6 +170,7 @@ a:active {
   background:#fff;
   color: #000;
   text-align: center;
+  padding-bottom: 12em;
 }
 
 #location{
@@ -167,14 +179,66 @@ a:active {
 }
 
 #location-spot{
-    text-align: center;
+  text-align: center;
+  position: relative;
+}
+
+.diamond {
+  width: 150px;
+  height: 150px;
+  background-color: #000;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  z-index: 1;
+  /* circle */
+  /*border-radius: 50%;*/
+}
+
+.diamond h4 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  width: 100%;
+  text-align: center;
 }
 
 #social-media {
   background:#fff;
   color: #000;
-  text-align: center;
-  padding: 2em;  
+  text-align: left;
+  padding: 1em 2em;  
+}
+
+#social-media h4 {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.social-links {
+  display: inline-block;
+}
+
+.social-link {
+  display: inline-block;
+  margin-right: 8px
+}
+
+.social-link i,
+.social-link img {
+  width: 25px;
+  color: #000;
+}
+
+
+
+.social-link a {
+  background-color: transparent;
+}
+
+.social-link a:hover {
+  background-color: transparent;
 }
 
 .block {
@@ -247,7 +311,6 @@ footer li {
     clear: both;
     height: 0;
 }
-
 
 
 
