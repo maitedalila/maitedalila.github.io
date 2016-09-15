@@ -9,7 +9,7 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400");
 
 
-*, 
+*,
 *:before,
 *:after {
   margin: 0;
@@ -19,12 +19,7 @@
   box-sizing: border-box;
 }
 
-nav {
-  padding: 1em;
-  margin-top: .5em;
-  background-color: #FFF;
-
-}
+nav {position: absolute;right: 1em;top: 50%;transform: translateY(-50%);}
 
 nav li {
   display: inline-block;
@@ -41,31 +36,29 @@ nav ul {
 
 
 .logo {
-  max-width: 110px;
+  width: 10em;
+  float: left;
 }
  
 
-header{
+.tagline{
     background: url("../images/coffee-brew.jpg");
     background-size:cover;
     background-position: center 5%;
     background-repeat: no-repeat;
 }
 
-header {
-    height: 500px;
-}
+header {padding: 1em;position: fixed;top: 0;width: 100%;background: #fff;z-index: 2;box-shadow: 1px 1px 3px rgba(0,0,0,.25);}
 
-.contact-link{
-    color: black;
+nav a{
+    color: #222;
     text-decoration: none;
-
+    padding: 1em;
 }
 
 
 section {
-  padding: 8em;
-
+  padding: 8em 0;
 }
 
 body {
@@ -139,7 +132,7 @@ a {
 
 .tagline {
   text-align: center;
-  margin-top: 9em;
+  padding: 22em 0 16em;
 }
 
 .viewcoffee {
@@ -148,10 +141,10 @@ a {
 }
 
 #about{
-  background:#fff;
-  color: #000;
+  color: #222;
   text-align: center;
-  padding-bottom: 12em;
+  max-width: 46em;
+  margin: auto;
 }
 
 #location{
@@ -162,11 +155,12 @@ a {
 #location-spot{
   text-align: center;
   position: relative;
+  margin-top: 6em;
 }
 
 .diamond {
-  width: 130px;
-  height: 130px;
+  width: 10em;
+  height: 10em;
   background-color: #E39100;
   position: absolute;
   top: 0%;
@@ -228,9 +222,9 @@ a {
   background-repeat: no-repeat;
   text-align: center;
   float: left;
-  width: 50%; 
+  width: 50%;
   height: 340px;
-  border: 1px solid white; 
+  border: 1px solid white;
   text-align: center;
   position: relative;
 }
