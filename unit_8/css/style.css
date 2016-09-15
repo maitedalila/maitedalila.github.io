@@ -8,6 +8,10 @@
 
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400");
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 *,
 *:before,
 *:after {
@@ -18,6 +22,7 @@
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 nav {
   position: absolute;
   right: 1em;
@@ -25,6 +30,9 @@ nav {
   transform: 
   translateY(-50%);
 }
+=======
+nav {position: absolute;right: 1em;top: 50%;transform: translateY(-50%);}
+>>>>>>> origin/master
 
 nav li {
   display: inline-block;
@@ -43,6 +51,10 @@ nav ul {
   float: left;
 }
  
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 .tagline{
     background: url("../images/coffee-brew.jpg");
     background-size:cover;
@@ -52,6 +64,7 @@ nav ul {
     padding: 16em 0 8em;
 }
 
+<<<<<<< HEAD
 header {
   padding: 1em;
   position: fixed;
@@ -61,6 +74,9 @@ header {
   z-index: 2;
   box-shadow: 1px 1px 3px rgba(0,0,0,.25);
 }
+=======
+header {padding: 1em;position: fixed;top: 0;width: 100%;background: #fff;z-index: 2;box-shadow: 1px 1px 3px rgba(0,0,0,.25);}
+>>>>>>> origin/master
 
 nav a{
     color: #222;
@@ -143,6 +159,13 @@ a {
     color: white;
 }
 
+<<<<<<< HEAD
+=======
+.tagline {
+  text-align: center;
+  padding: 22em 0 16em;
+}
+>>>>>>> origin/master
 
 .viewcoffee {
   text-align: center;
@@ -230,7 +253,11 @@ a {
   text-align: center;
   float: left;
   width: 50%;
+<<<<<<< HEAD
   height: 30em;
+=======
+  height: 340px;
+>>>>>>> origin/master
   border: 1px solid white;
   text-align: center;
   position: relative;
