@@ -48,7 +48,7 @@ nav ul {
     background-position: center 5%;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 16em 0 8em;
+    padding: 14em 0 8em;
 }
 
 .tagline-brewing{
@@ -57,7 +57,7 @@ nav ul {
     background-position: center 5%;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 16em 0 8em;
+    padding: 14em 0 8em;
 }
 
 header {
@@ -238,7 +238,7 @@ a {
   text-align: center;
   float: left;
   width: 50%;
-  height: 30em;
+  height: 40em;
   border: 1px solid white;
   text-align: center;
   position: relative;
@@ -254,11 +254,11 @@ a {
 
 .bean-img {
   background-color: #fff;
-   background-position: center 50%;
+  background-position: center 50%;
   background-repeat: no-repeat;
   text-align: center;
   float: left;
-  width: 50%;
+  width: 33%;
   height: 30em;
   text-align: center;
   position: relative;
