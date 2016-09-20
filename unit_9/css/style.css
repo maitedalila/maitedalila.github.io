@@ -123,9 +123,10 @@ p {
   font-size: 1em;
   font-weight: 100;
   line-height: 2em;
-  margin-top: 2em;
+  
   max-width: 40em;
   margin: auto;
+  margin-top: 2em;
 }
 
 ul {
@@ -263,7 +264,12 @@ a {
   width: 75%;
 }
 
-.bean-img {
+#product-page {
+  margin: 0em 4em;
+}
+
+
+.beans {
   background-color: #fff;
   background-position: center 50%;
   background-repeat: no-repeat;
@@ -273,6 +279,10 @@ a {
   height: 30em;
   text-align: center;
   position: relative;
+}
+
+.beans img {
+  width: 100%;
 }
 
 .sunset{
@@ -323,6 +333,7 @@ footer li {
     clear: both;
     height: 0;
 }
+
 
 @media only screen and (max-width: 720px) { 
 
