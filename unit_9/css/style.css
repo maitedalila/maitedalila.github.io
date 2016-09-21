@@ -267,21 +267,22 @@ a {
 }
 
 #product-page {
-  margin: 0em 4em;
+  margin: 4em 4em;
+  display: inline-block;
 }
 
 
 .beans {
   background-color: #fff;
-  background-position: center 50%;
-  background-repeat: no-repeat;
   text-align: center;
   float: left;
-  width: 33%;
-  height: 35em;
+  width: 25%;
+  height: 30em;
   text-align: center;
   position: relative;
   box-shadow: 1px 1px 3px rgba(0,0,0,.25);
+  margin: 1em 1em;
+
 
 }
 
@@ -306,6 +307,7 @@ a {
   line-height: 0em;
   text-transform: lowercase;
   margin-top: 1em;
+
 }
 
 .sunset{
