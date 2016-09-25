@@ -44,6 +44,13 @@ nav a{
     padding: 1em;
 }
 
+hr { 
+    display: block;
+    border-top: 4px solid #000;
+    margin:2em auto;
+    width: 5%;
+}
+
 .logo {
   width: 10em;
   float: left;
@@ -292,8 +299,6 @@ a {
   background-color: #EEE;
 }
 
-#service-page h1{
-   border-bottom: 1px solid black;
 }
 
 #service-page p{
@@ -350,18 +355,11 @@ a {
   background-color: #fff;
 }
 
-#specialize-page h1{
-   border-bottom: 1px solid black;
-}
-
 #say-hello-page {
   display: inline-block;
   background-color: #fff;
 }
 
-#say-hello-page h1{
-  border-bottom: 1px solid black;
-}
 
 #say-hello-page p{
   display: inline-block;
