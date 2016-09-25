@@ -292,6 +292,16 @@ a {
   background-color: #EEE;
 }
 
+#service-page h1{
+   border-bottom: 1px solid black;
+}
+
+#service-page p{
+  line-height: 2em;
+  width: 75%
+}
+
+
 
 .service {
   background-color: #fff;
@@ -340,15 +350,24 @@ a {
   background-color: #fff;
 }
 
+#specialize-page h1{
+   border-bottom: 1px solid black;
+}
+
 #say-hello-page {
   display: inline-block;
   background-color: #fff;
+}
+
+#say-hello-page h1{
+  border-bottom: 1px solid black;
 }
 
 #say-hello-page p{
   display: inline-block;
   background-color: #fff;
   color: #222;
+
 }
 
 .sunset{
