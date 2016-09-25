@@ -175,7 +175,7 @@ a {
 
 
 .button {
-    background-color: #000; 
+    background-color: #222; 
     opacity: 20%;
     color: #fff;
     /*border: 2px solid #fff; */
@@ -273,6 +273,47 @@ a {
   background-color: transparent;
 }
 
+
+
+
+#company-logo {
+  background: #E3E7E6;
+  border-top: 4px solid white;
+  color: #FFF;
+  text-align: center;
+  padding: 1em 2em;  
+}
+
+.company-link {
+  display: inline-block;
+  margin: .5em;
+  display: inline-block;
+
+}
+
+.company-link i,
+.company-link img {
+  width: 8em;
+  color: #000;
+}
+
+.company-link a {
+  background-color: transparent;
+}
+
+.company-link a:hover {
+  background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
 .block {
   background-size:cover;
   background-position: center 50%;
@@ -311,10 +352,10 @@ a {
 .service {
   background-color: #fff;
   text-align: center;
+  align-self: center;
   float: left;
-  width: 33%;
+  width: 30%;
   height: 30em;
-  text-align: center;
   position: relative;
   box-shadow: 1px 1px 3px rgba(0,0,0,.25);
   margin: 1em 1em;
