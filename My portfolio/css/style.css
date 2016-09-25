@@ -347,6 +347,11 @@ a {
 }
 
 
+#service-page {
+  display: inline-block;
+  background-color: #EEE;
+}
+
 
 .service {
   background-color: #fff;
@@ -383,19 +388,85 @@ a {
   width: 75%;
   text-transform: lowercase;
   margin-top: 1em;
+}
 
+
+
+
+
+
+#specialize-page {
+  display: inline-block;
+  background-color: #EEE;
+}
 
 }
 
-#service-page {
-  display: inline-block;
-  background-color: #EEE;
+#specialize-page p{
+  line-height: 2em;
+  width: 80%
 }
 
 #specialize-page {
   display: inline-block;
   background-color: #fff;
 }
+
+
+
+.specialize-item {
+  background-color: #fff;
+  text-align: center;
+  align-self: center;
+  float: left;
+  width: 40%;
+  height: 28em;
+  position: relative;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.25);
+  margin: 1em 1em;
+}
+
+.specialize-item img {
+  width: 100%;
+/*  display: inline-block;
+*/
+}
+
+.specialize-item h3 {
+  color: #0A402B;
+  text-align: center;
+  font-size: 1em;
+   margin-top: 2em;
+}
+
+.specialize-item p {
+  font-family: 'Mulis', sans-serif;
+  color: #C5C5C5;
+  text-align: center;
+  font-size: .8em;
+  font-weight: 100;
+  line-height: 2em;
+  width: 75%;
+  text-transform: lowercase;
+  margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #say-hello-page {
   display: inline-block;
