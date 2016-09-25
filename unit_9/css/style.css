@@ -47,7 +47,7 @@ nav a{
 }
  
 .tagline{
-    background: url("../images/hero-coffee-brew.jpg");
+    background: url("../images/hero-coffee-roast.jpg");
     background-size:cover;
     background-position: center 5%;
     background-repeat: no-repeat;
@@ -73,7 +73,6 @@ nav a{
      display: block;
 }
 
-
 header {
   padding: 1em;
   position: fixed;
@@ -83,7 +82,6 @@ header {
   z-index: 2;
   box-shadow: 1px 1px 3px rgba(0,0,0,.25);
 }
-
 
 section {
   padding: 8em 0;
@@ -126,7 +124,6 @@ p {
   max-width: 40em;
   margin: auto;
   margin-top: 2em;
-
 }
 
 ul {
@@ -135,14 +132,12 @@ ul {
   padding: 0;
 }
 
-
 a {
     color: #fff;
     font-family: Gotham;
     text-decoration: none;
     text-transform: uppercase;
 }
-
 
 .button {
     background-color: #E39100; 
@@ -162,7 +157,6 @@ a {
     background-color: black;
     color: white;
 }
-
 
 .viewcoffee {
   text-align: center;
@@ -269,7 +263,6 @@ a {
   display: inline-block;
 }
 
-
 .beans {
   background-color: #fff;
   text-align: center;
@@ -349,7 +342,6 @@ footer li {
   width: 50%;
 }
 
-
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -358,7 +350,6 @@ footer li {
     clear: both;
     height: 0;
 }
-
 
 @media only screen and (max-width: 720px) { 
 
