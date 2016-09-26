@@ -201,7 +201,7 @@ a {
 #about{
   color: #222;
   text-align: center;
-  max-width: 60%;
+  max-width: 80%;
   margin: auto;
 }
 
@@ -307,11 +307,9 @@ a {
 
 
 
-
-
-
-
-
+section {
+    padding: 8em 8em;
+}
 
 .block {
   background-size:cover;
@@ -396,34 +394,26 @@ a {
 
 
 #specialize-page {
-  display: inline-block;
   background-color: #EEE;
+  display: inline-block;
+  background-color: #fff;
 }
 
-}
 
 #specialize-page p{
   line-height: 2em;
   width: 80%
 }
 
-#specialize-page {
-  display: inline-block;
-  background-color: #fff;
-}
-
-
-
 .specialize-item {
   background-color: #fff;
   text-align: center;
-  align-self: center;
-  float: left;
   width: 40%;
   height: 28em;
   position: relative;
   box-shadow: 1px 1px 3px rgba(0,0,0,.25);
-  margin: 1em 1em;
+  margin: 0 1em;
+  display: inline-block;
 }
 
 .specialize-item img {
