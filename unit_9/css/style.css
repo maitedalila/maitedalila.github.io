@@ -19,7 +19,7 @@ nav {
   position: absolute;
   right: 1em;
   top: 50%;
-  transform: 
+  transform:
   translateY(-50%);
 }
 
@@ -45,7 +45,7 @@ nav a{
   width: 10em;
   float: left;
 }
- 
+
 .tagline{
     background: url("../images/hero-coffee-roast.jpg");
     background-size:cover;
@@ -140,7 +140,7 @@ a {
 }
 
 .button {
-    background-color: #E39100; 
+    background-color: #E39100;
     opacity: 20%;
     color: #fff;
     /*border: 2px solid #fff; */
@@ -206,7 +206,7 @@ a {
   background: #1A1A1A;
   color: #FFF;
   text-align: left;
-  padding: 1em 2em;  
+  padding: 1em 2em;
 }
 
 #social-media h4 {
@@ -273,6 +273,7 @@ a {
   box-shadow: 1px 1px 3px rgba(0,0,0,.25);
   margin: .5%;
   padding-bottom: 2em;
+  height:400px;
 }
 
 .beans img {
@@ -351,14 +352,64 @@ footer li {
     height: 0;
 }
 
-@media only screen and (max-width: 720px) { 
+.small-width{
+  width:45%;
+}
 
-    .block { 
-      float: none; width: auto; } 
+@media only screen and (max-width: 1300px) {
+
+    .block {
+      float: none; width: auto;
+    }
+    .beans{
+      width:30%;
+      height: 450px;
+    }
+    #product-page{
+      margin-right:-70px;
     }
 
-/*@media only screen and (max-width: 500px) { 
-    h1 {
-      font-size: 2em;
+    @media only screen and (max-width: 1000px) {
+
+    .block {
+      float: none; width: auto;
     }
-*/
+    .beans{
+      width:25%;
+      height: 400px;
+    }
+    #product-page{
+      margin-right:-180px;
+    }
+
+@media only screen and (max-width: 850px) {
+
+    .block {
+      float: none; width: auto;
+    }
+    .beans{
+      width:40%;
+      height: 420px;
+      margin-top: 1em;
+      margin-left: 1em;
+    }
+    #product-page{
+      margin-right:-20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+  .beans{
+    width:70%;
+    height:380px;
+    margin-top: 50px;
+  }
+
+  h1{
+    font-size: 1.5em;
+  }
+ 
+  p{
+     font-size: .9em;
+  }
+}
