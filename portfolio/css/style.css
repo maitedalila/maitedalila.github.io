@@ -62,7 +62,7 @@ hr {
     background-position: center 5%;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 14em 0 8em;
+    padding: 11em 0 8em;
 }
 
 .tagline-brewing{
@@ -96,7 +96,7 @@ header {
 
 
 section {
-  padding: 8em 0;
+  padding: 6em 0;
 }
 
 body {
@@ -201,8 +201,8 @@ a {
 #about{
   color: #222;
   text-align: center;
-  max-width: 80%;
-  margin: auto;
+  max-width: 90%;
+  margin: .5em;
 }
 
 #location{
