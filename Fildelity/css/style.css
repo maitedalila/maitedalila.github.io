@@ -1,4 +1,3 @@
-
 /* HEADER TEXT * importing fonts in my file*/
 
 @font-face {
@@ -12,17 +11,14 @@
 *:after {
   margin: 0;
   padding: 0;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 nav {
   position: absolute;
   right: 1em;
-  height: 2em
   top: 50%;
-  transform: 50%;
+  transform:
   translateY(-50%);
 }
 
@@ -44,20 +40,13 @@ nav a{
     padding: 1em;
 }
 
-hr { 
-    display: block;
-    border-top: 4px solid #000;
-    margin:2em auto;
-    width: 5%;
-}
-
 .logo {
   width: 10em;
   float: left;
 }
- 
+
 .tagline{
-    background: url("../images/palm.png");
+    background: url("../images/mic.jpg");
     background-size:cover;
     background-position: center 5%;
     background-repeat: no-repeat;
@@ -71,18 +60,17 @@ hr {
     background-position: center 5%;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 14em 0 8em;
+    padding: 14em 2em 8em;
 }
 
 .tagline-brewing p{
      display: block;
-    border: 0;
-    padding: 1em;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #fff;
-    display: block;
+     border: 0;
+     padding: 1em 0;
+     border-top: 1px solid #eee;
+     border-bottom: 1px solid #fff;
+     display: block;
 }
-
 
 header {
   padding: 1em;
@@ -94,7 +82,6 @@ header {
   box-shadow: 1px 1px 3px rgba(0,0,0,.25);
 }
 
-
 section {
   padding: 8em 0;
 }
@@ -105,7 +92,8 @@ body {
   font-family: 'Mulis', sans-serif;
   font-size: 1em;
   font-weight: 100;
-  line-height: 1.2em;
+  line-height: 1.2;
+  background: #fefefe;
 }
 
 h1 {
@@ -116,14 +104,6 @@ h1 {
   margin-bottom: .5em;
 }
 
-.header-black {
-  font-family: 'Gotham', sans-serif;
-  font-size: 2em;
-  text-transform: uppercase;
-  text-align: center;
-  color: #222;
-}
-
 h3 {
   font-family: 'Gotham', sans-serif;
   font-size: 1.7em;
@@ -132,29 +112,18 @@ h3 {
 
 h4 {
   font-family: 'Gotham', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.4em;
   letter-spacing: 4px;
   text-transform: uppercase;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.4em;
-  font-weight: 100;
-  line-height: 1.7em;
-  max-width: 40em;
-  margin: auto;
-}
-
-p-black {
-  font-family: 'Open Sans', sans-serif;
-  color: #222;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 100;
   line-height: 2em;
   max-width: 40em;
   margin: auto;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 ul {
@@ -163,17 +132,15 @@ ul {
   padding: 0;
 }
 
-
 a {
     color: #fff;
-    font-family: Open Sans;
+    font-family: Gotham;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-
 .button {
-    background-color: #222; 
+    background-color: #E39100;
     opacity: 20%;
     color: #fff;
     /*border: 2px solid #fff; */
@@ -184,14 +151,12 @@ a {
     font-size: .9em;
     margin-top: 20px;
     text-transform: uppercase;
-    box-shadow:1px 1px 3px rgba(0,0,0,.25);
 }
 
 .button-black {
     background-color: black;
     color: white;
 }
-
 
 .viewcoffee {
   text-align: center;
@@ -201,7 +166,7 @@ a {
 #about{
   color: #222;
   text-align: center;
-  max-width: 80%;
+  max-width: 46em;
   margin: auto;
 }
 
@@ -210,7 +175,7 @@ a {
    text-align: center;
 }
 
-#location-spot{
+#show{
   text-align: center;
   position: relative;
   margin-top: 6em;
@@ -219,7 +184,7 @@ a {
 .diamond {
   width: 10em;
   height: 10em;
-  background-color: #E39100;
+  background-color: #E8394E;
   position: absolute;
   top: 0%;
   left: 50%;
@@ -241,7 +206,7 @@ a {
   background: #1A1A1A;
   color: #FFF;
   text-align: left;
-  padding: 1em 2em;  
+  padding: 1em 2em;
 }
 
 #social-media h4 {
@@ -272,45 +237,6 @@ a {
   background-color: transparent;
 }
 
-
-
-
-#company-logo {
-  background: #E3E7E6;
-  border-top: 4px solid white;
-  color: #FFF;
-  text-align: center;
-  padding: 1em 2em;  
-}
-
-.company-link {
-  display: inline-block;
-  margin: .5em;
-  display: inline-block;
-
-}
-
-.company-link i,
-.company-link img {
-  width: 8em;
-  color: #000;
-}
-
-.company-link a {
-  background-color: transparent;
-}
-
-.company-link a:hover {
-  background-color: transparent;
-}
-
-
-
-
-section {
-    padding: 8em 8em;
-}
-
 .block {
   background-size:cover;
   background-position: center 50%;
@@ -318,7 +244,7 @@ section {
   text-align: center;
   float: left;
   width: 50%;
-  height: 40em;
+  height: 20em;
   border: 1px solid white;
   text-align: center;
   position: relative;
@@ -332,159 +258,91 @@ section {
   width: 75%;
 }
 
-#service-page {
-  display: inline-block;
-  background-color: #EEE;
+#product-page {
+  /* margin: 4em 4em; */
+  /* display: inline-block; */
+  max-width: 80em;
+  margin: auto;
+  background: #fdfdfd;
+<<<<<<< HEAD
+  padding-top: 1em;
+  padding-bottom: 1em;
+=======
+>>>>>>> origin/master
 }
 
-}
-
-#service-page p{
-  line-height: 2em;
-  width: 100%
-}
-
-
-#service-page {
-  display: inline-block;
-  background-color: #EEE;
-}
-
-
-.service {
+.beans {
   background-color: #fff;
   text-align: center;
-  align-self: center;
   float: left;
-  width: 30%;
-  height: 27em;
+  width: 24%;
+  text-align: center;
   position: relative;
   box-shadow: 1px 1px 3px rgba(0,0,0,.25);
-  margin: 1em 1em;
+  margin: .5%;
+  padding-bottom: 2em;
+  min-height: 26em;
 }
 
-.service img {
+.beans img {
   width: 100%;
-/*  display: inline-block;
+  /*  display: inline-block;
 */
 }
 
-.service h3 {
-  color: #0A402B;
+.beans h3 {
+  color: #E39100;
   text-align: center;
   font-size: 1em;
-   margin-top: 2em;
 }
 
-.service p {
+.beans p {
   font-family: 'Mulis', sans-serif;
   color: #C5C5C5;
   text-align: center;
   font-size: .8em;
   font-weight: 100;
-  line-height: 2em;
-  width: 75%;
   text-transform: lowercase;
   margin-top: 1em;
 }
-
-
-
-#specialize-page {
-  background-color: #EEE;
-  display: inline-block;
-  background-color: #fff;
+.beans .cta {
+    background: #e7a127;
+    color: #fff;
+    display: inline-block;
+    padding: .5em 1em;
+    border-radius: 46%;
 }
-
-
-#specialize-page p{
-  line-height: 2em;
-  width: 80%
-}
-
-.specialize-item {
-  background-color: #fff;
-  text-align: center;
-  width: 40%;
-  height: 28em;
-  position: relative;
-  box-shadow: 1px 1px 3px rgba(0,0,0,.25);
-  margin: 0 1em;
-  display: inline-block;
-}
-
-.specialize-item img {
-  width: 100%;
-/*  display: inline-block;
+.dando_candela{
+  background-color: #333334;
+/*  background-image: url("../images/show-dando-candela.png");
 */
 }
 
-.specialize-item h3 {
-  color: #0A402B;
-  text-align: center;
-  font-size: 1em;
-   margin-top: 2em;
-}
+.enlamira{
+  background-color: #333334;
+/*  background-image: url("../images/show-en-la-mira.png");
+*/}
 
-.specialize-item p {
-  font-family: 'Mulis', sans-serif;
-  color: #C5C5C5;
-  text-align: center;
-  font-size: .8em;
-  font-weight: 100;
-  line-height: 2em;
-  width: 75%;
-  text-transform: lowercase;
-  margin-top: 1em;
-}
+.matutino{
+  background-color: #333334;
+/*  background-image: url("../images/show-matutino.jpg");
+*/}
 
 
+.mumo{
+  background-color: #333334;
+/*  background-image: url("../images/show-mumo-radio.jpg");
+*/}
 
+.primera{
+  background-color: #333334;
+/*  background-image: url("../images/show-mumo-radio.jpg");
+*/}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#say-hello-page {
-  display: inline-block;
-  background-color: #fff;
-}
-
-
-#say-hello-page p{
-  display: inline-block;
-  background-color: #fff;
-  color: #222;
-
-}
-
-.sunset{
-  background-image: url("../images/location-sunset-harbour.jpg");
-
-}
-
-.wynwood{
-  background-image: url("../images/location-wynwood.jpg");
-}
-
-.grove{
-  background-image: url("../images/location-coconut-grove.jpg");
-}
-
-
-.coming-soon{
-  background-image: url("../images/location-coming-soon.jpg");
-}
+.musica{
+  background-color: #333334;
+/*  background-image: url("../images/show-mumo-radio.jpg");
+*/}
 
 footer{
   background: #212121;
@@ -507,7 +365,6 @@ footer li {
   width: 50%;
 }
 
-
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -517,33 +374,50 @@ footer li {
     height: 0;
 }
 
+.small-width{
+  max-width: 600px;
+}
 
 @media only screen and (max-width: 1300px) {
 
-    .block {
-      float: none; width: auto;
-    }
-    .service{
-      width: 30%;
+
+    .beans{
+      width: 32.33%;
     }
     #product-page{
       padding: 1em;
     }
 }
 
-@media only screen and (max-width: 1200px) {
-    .service{
-      width: 30%;
+@media only screen and (max-width: 1000px) {
+    .beans{
+    }
+
+}
+@media only screen and (max-width: 850px) {
+    .beans{
+      width: 49%;
       margin-top: 1em;
+      /* margin-left: 1em; */
     }
 }
 
 @media only screen and (max-width: 500px) {
-  .service{
+  .beans{
     width: 99%;
     margin-top: 50px;
   }
 
-}
 
+        .block {
+      float: none; width: auto;
+    }
+
+  h1{
+    font-size: 1.5em;
+  }
+ 
+  p{
+     font-size: .9em;
+  }
 }
