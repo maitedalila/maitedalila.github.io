@@ -62,7 +62,7 @@ hr {
     background-position: center 5%;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 11em 0 8em;
+    padding: 11em 0 7em;
 }
 
 .tagline-brewing{
@@ -281,7 +281,7 @@ a {
   border-top: 4px solid white;
   color: #FFF;
   text-align: center;
-  padding: 1em 2em;  
+  padding: .5em 2em;  
 }
 
 .company-link {
