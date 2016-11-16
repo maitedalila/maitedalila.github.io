@@ -201,8 +201,9 @@ a {
 #about{
   color: #222;
   text-align: center;
-  max-width: 90%;
-  margin: .5em;
+  max-width: 80%;
+  margin: auto;
+  padding: 6em;
 }
 
 #location{
@@ -308,7 +309,7 @@ a {
 
 
 section {
-    padding: 8em 8em;
+    padding: 7em 7em;
 }
 
 .block {
